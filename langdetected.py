@@ -1,0 +1,16 @@
+from langdetect import detect
+
+print(detect("Geeksforgeeks is a computer science portal for geeks"))
+print(detect("Geeksforgeeks - это компьютерный портал для гиков"))
+print(detect("Geeksforgeeks es un portal informático para geeks"))
+print(detect("Geeksforgeeks 是面向极客的计算机科学门户"))
+print(detect("Geeksforgeeks geeks के लिए एक कंप्यूटर विज्ञान पोर्टल है"))
+print(detect("Geeksforgeeks は、ギーク向けのコンピューターサイエンスポータルです。"))
+print(detect("Geeksforgeeks é um portal de informaticos para os geeks."))
+print("Pequeño extracto del Quijote el cual argostranslate detecta como 'az' (azerí):")
+print(detect("Pequeño extracto del Quijote el cual argostranslate detecta como 'az' (azerí):"))
+print(detect("En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda. El resto della concluían sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo, y los días de entresemana se honraba con su vellorí de lo más fino."))
+print(detect("Entonces se dirigió a mí y me dijo: Fuck yourself, plz. But first, stfu!"))
+print(detect("Then he turned to me and said: ¡Que te jodan, por favor! Pero primero, ¡cállate!"))
+print(detect("Fuck yourself, plz. But first, stfu!, me dijo. Pero vamos, que ni puto caso."))
+print(detect("¡Que te jodan, por favor! Pero primero, ¡cállate!, said to me."))
