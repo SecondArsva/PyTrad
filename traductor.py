@@ -6,7 +6,7 @@ from typing import List
 import argostranslate.package as pkg
 import argostranslate.translate as argo
 
-MAX_LEN = 1000
+MAX_LEN = 100000
 FROM = "es"
 TO = "pt"
 
